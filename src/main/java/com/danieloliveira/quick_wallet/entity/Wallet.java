@@ -86,4 +86,12 @@ public class Wallet {
     public void setWalletType(WalletType walletType) {
         this.walletType = walletType;
     }
+
+    public Wallet(String fullName, String email, String cpfCnpj, String password, WalletType walletType) {
+        this.fullName = fullName;
+        this.email = email;
+        this.cpfCnpj = cpfCnpj;
+        this.password = password;
+        this.walletType = walletType;
+    }
 }
